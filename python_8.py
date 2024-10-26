@@ -348,6 +348,8 @@ sayi = [1,2,3]
 a = list(zip(harf, sayi))
 print(type(a))
 print(a)
+print(type(a[1]))
+print(a[1])
 print(list(zip(harf,sayi)))
 print(tuple(zip(harf,sayi)))
 print(dict(zip(harf,sayi)))
